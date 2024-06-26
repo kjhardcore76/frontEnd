@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 블록 요소는 상자(레이아웃)를 다루기 위한 요소 -->
+  <!-- 상하로 배치, 부모의 요소크기를 기본 너비로 가진다 -->
+  <div style="width:100px; background-color: orange;">div1</div>
+  <div style="width:50px; background-color: yellow;">div2</div>
+  <hr>
+  <div style="width:100px; background-color: orange;margin: 10px;">div1</div>
+  <div style="width:50px; background-color: yellow;padding: 10px;">div2</div>
+  <!-- block레벨은 inline레벨을 자식으로 허락한다 -->
+  <div>
+    <div>div in div</div>
+  </div>
+  <div>
+    <span>span in div</span>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 
+    https://via.placeholder.com
+    https://dummyimage.com
+  -->
+  <img src="https://via.placeholder.com/300x200" style="object-fit:cover;width:300px;aspect-ratio: 1;" alt=""> <br>
+  <img src="https://via.placeholder.com/200/ffff00/ff0000?text=lorem" alt="">
+  <hr>
+  <audio src="./audio/horse.mp3" controls></audio><br>
+  <audio controls loop muted>
+    <source src="./audio/horse.mp3" type="audio/mpeg">
+    <source src="./audio/horse.ogg" type="audio/ogg">
+  </audio>
+  <!-- mp4, webm, ogg -->
+  <hr>
+  <video controls autoplay loop muted>
+    <source src="./video/mov_bbb.mp4" type="video/mp4">
+    <source src="./video/Wildlife.webm" type="video/webm">
+  </video>
+  <br>
+  <!-- 
+    video요소의 poster속성을 사용하면 video관련 이미지를 출력할 수 있음
+  -->
+  <video style="border:1px solid red"  poster="https://via.placeholder.com/300/ffff00/ff0000?text=video">
+    <source src="./video/mov_bbb.mp4" type="video/mp4">
+    <source src="./video/Wildlife.webm" type="video/webm">
+  </video>
+  <br>
+  <!-- 
+    iframe : 독립적인 웹문서를 출력할 수 있는 요소
+  -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1lDPh8zo_uo?si=OyUGSzzZyCQZ4WKX" allowfullscreen frameborder="0"></iframe>
+</body>
+
+</html>
